@@ -1,0 +1,163 @@
+﻿# ============================================
+# BASIC-PROJECT - Git Ignore
+# Frontend: React + Vite + TypeScript
+# Backend: ASP.NET Core / .NET
+# IDE: Rider / JetBrains
+# OS: Windows
+# ============================================
+
+
+# ============================================
+# 1. ENVIRONMENT / SECRETS
+# ============================================
+
+.env
+.env.*
+!.env.example
+
+# Local configuration / secrets
+*.local
+
+# ============================================
+# 2. FRONTEND - Node.js
+# ============================================
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Vite
+.vite/
+
+# TypeScript
+*.tsbuildinfo
+
+# npm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Package manager files
+.npm/
+.pnpm-store/
+
+# Coverage
+coverage/
+
+# ============================================
+# 3. BACKEND - .NET / ASP.NET CORE
+# ============================================
+
+# Build output
+bin/
+obj/
+
+# .NET generated files
+*.dll
+*.exe
+*.pdb
+*.cache
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+
+# Visual Studio
+.vs/
+
+# Test results
+TestResults/
+*.trx
+
+# ASP.NET Core local settings
+appsettings.Local.json
+
+# ============================================
+# 4. JETBRAINS - RIDER / INTELLIJ
+# ============================================
+
+.idea/
+
+# JetBrains user-specific files
+*.iws
+
+# ============================================
+# 5. VISUAL STUDIO CODE
+# ============================================
+
+.vscode/
+
+# Keep shared VS Code settings if needed
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# ============================================
+# 6. WINDOWS
+# ============================================
+
+# Windows thumbnail cache
+Thumbs.db
+Thumbs.db:encryptable
+
+# Desktop.ini
+Desktop.ini
+
+# Recycle Bin
+$RECYCLE.BIN/
+
+# Windows image files
+ehthumbs.db
+
+# ============================================
+# 7. MACOS
+# ============================================
+
+.DS_Store
+
+# ============================================
+# 8. LINUX
+# ============================================
+
+*~
+.directory
+
+# ============================================
+# 9. LOGS / TEMPORARY FILES
+# ============================================
+
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# ============================================
+# 10. DATABASE / LOCAL DATA
+# ============================================
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Local database backups
+*.bak
+
+# ============================================
+# 11. GENERATED / TEMPORARY FILES
+# ============================================
+
+temp/
+tmp/
+
+# Generated documentation/cache
+.cache/
+
+# ============================================
+# END
+# ============================================
